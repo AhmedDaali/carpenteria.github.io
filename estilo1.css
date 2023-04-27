@@ -1,0 +1,938 @@
+
+body{
+    background-color: #76ca547e;
+    width: 100%;
+    height: auto;
+}
+
+.contenedor{
+
+    position: static;
+
+    /*Dimensiones*/
+    width: 99%;
+    height: auto;
+}
+
+header{
+
+    /*Aquí va el estilo para el div header*/
+    position: absolute;
+   
+
+    /*Color de fondo y propiedades del texto*/
+    background-color: #4d8585cb;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    text-align: center;
+    padding-left: 4px;
+    
+    /*Dimensiones*/
+    width: 99%;
+    height: 160px;
+    
+    border-radius: 7px;
+
+    box-shadow: 5px 3px 10px #43646493;
+    
+}
+
+.tituloCabecera{
+    position: absolute;
+    left: 28%;
+    text-shadow: 4px 3px 3px #7e4905;
+    border-bottom: 2px solid;
+    font-family: Flash;
+    float: center;
+    margin: auto;
+    text-align: center;
+    color: #ffe99f;
+    
+}
+
+.tituloCabecera p{
+    font-size: 160%;
+}
+
+.imagenHeader{
+    /*Estilo para la imagen del menú.*/
+
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: left;
+    margin:auto;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 75px;
+
+}
+
+.enlaceRRSS{
+    /*Estilo para el enlace a instagram*/
+    width: 30px;
+    position:relative;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+nav{
+
+    /*Aquí va el estilo para el div nav (el div de los menus)*/
+    position: absolute;
+    background-color: #5e9191b9;
+    text-align: center;
+    margin: auto;
+    /*Dimensiones*/
+    margin-top:170px;
+    margin-left:10%;
+    margin-right:10%;
+    width: 80%;
+    height: 90px;
+    border-radius: 7px;
+    box-shadow: 5px 3px 10px #436464ee;
+    
+}
+
+.button {   /*Esta es la clase que le da estilo a la caja del botón*/
+    font-family: Arial;
+    color: #ffffff;
+    padding-top: 10px;    /* Fijo el padding a 10 píxeles*/
+    padding-bottom: 10px;
+    height: auto;   /* Fijo la altura en auto */
+    width: 190px;   /* Fijo el ancho a 150 pixeles*/
+     
+    margin: auto;
+    text-decoration: none;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    
+    box-shadow: 5px 4px 8px #bb5a00dc;
+    text-shadow: 1px 1px 3px #3a35bf;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffa666), to(#c46f00));
+    background: -moz-linear-gradient(top, #ffa666, #c46f00);
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5567db, endColorStr=#0d05fa);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5567db, endColorStr=#0d05fa);
+    display:inline-block; 
+    text-align:center;
+    cursor:pointer;
+   
+}
+
+.button:hover {       /*Esto es el estilo del botón cuando el cursor está encima de él*/
+    background: #ffd298;  
+}
+
+main{
+
+    /* Crear un contenedor para todo el contenido principal, incluyendo el aside dentro de dicho contenido*/
+
+    position: absolute;
+    background-color: f9fac1;
+    margin: auto;
+    margin-top: 0.5%;
+    margin-bottom: 10px;
+    height: auto;
+    width: 99%;
+    top: 280px;
+    
+}
+
+.contenidoPrincipal{
+
+    position: absolute;
+    background-color: #FFFFFF;
+    text-align: justify;
+
+
+    margin: auto;
+    margin-top: 59px;
+    margin-left: 10px;
+    height: auto;
+    width: 98%;
+    border-radius: 7px;
+    box-shadow: 5px 3px 10px #3f53a3;
+    padding: 20px;
+ 
+}
+
+.contenidoPrincipal p{
+    font-size: 90%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:20px;
+    text-align: justify;
+}
+
+.contenidoPrincipal ul{
+    font-size: 90%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top:20px;
+    text-align: justify;
+    padding-left: 7%;
+}
+
+.contenidoPrincipal h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:5px;
+    text-align: justify;
+    border-bottom: solid rgb(24, 121, 15);
+    color: #064b03;
+    font-family: Flash;
+    
+}
+.contenidoPrincipalA{
+ 
+    background-color: #FFFFFF;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+ 
+    margin-left: 10px;
+    height: auto;
+    width: 98%;
+    border-radius: 7px;
+    box-shadow: 5px 3px 10px #3f53a3;
+    float: left;
+
+}
+
+.contenidoPrincipalA h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:5px;
+    text-align: justify;
+    border-bottom: solid rgb(24, 121, 15);
+    color: #064b03;
+    font-family: Flash;
+    
+}
+
+.asideLateral{
+
+    
+    background-color: #ffffff;
+    color: #1100ff;
+    margin: auto;
+    margin-top:1px;
+    margin-right: 10px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    height: auto;
+    width: 20px;
+   
+
+     
+
+    box-shadow: 5px 3px 10px #003b05;
+    float: right;
+}
+
+.imagenesBanners{
+
+    width: 100%;
+    margin: auto;
+    height:80px;
+    margin-top: 10px;
+
+}
+
+
+.tablaCentrada{
+
+    /*Estilo para los botones de la tabla del menú.*/
+
+    
+    margin: auto;
+    width: 70%;
+
+    border-collapse: collapse;
+    height: 100px;
+    position: relative;
+    font-size: 106%;
+    
+}
+
+td{
+    width: 80px;
+    
+}
+
+.cuerpoPrincipal{
+
+    /*Estilo para el cuerpo principal de para la página Áreas de actuación.*/
+
+position: absolute;
+    
+background-color: #ffffff;
+text-align: justify;
+padding: 20px;
+top: 265px;
+font-family: Arial, Helvetica, sans-serif;
+width: 99%;
+margin-top: 20px;    
+}
+    /*Estilo para el cuerpo principal de para las páginas de Contacto y Quienes somos.*/
+.contenedorCQS{
+    position: absolute;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 30px;
+    top: 265px;
+    background-color: #ffffff;
+    width: 100%;
+    display: flex ;
+    flex-wrap: wrap;
+    text-align:justify;
+  }
+   /*Estilo para el cuerpo del formulario.*/
+.datosCliente{
+    margin-left: 30px;
+    width: 45%;
+}
+   /*Estilo para el cuerpo de contacto y mapa.*/
+.contactoEmpresa{
+    width: 40%;
+    margin-left: 80px;
+    float:right;
+  }
+
+  /*Estilo para el cuerpo de texo de quienes somos.*/
+.textoQS{
+    font-size:130%;
+    margin-left: 30px;
+    width: 40%;
+    padding: 50 px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  /*Estilo para el cuerpo de la imágen del cepillo.*/
+.imagCepillo{
+    width: 40%;
+    padding-right: 5px;
+    padding-left:20px;
+    padding-bottom: 25px;
+}   
+   /*Estilo para el cuerpo de la imágen del Formón.*/
+.imagFormon{
+    margin-right: -10px;
+    margin-bottom: 20px;
+    padding-left:20px;
+    /*padding-right: 10px;*/
+    padding-bottom: 25px;
+      
+}
+footer{
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: #436464d2;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    clear:both;
+    bottom: 0;
+    z-index: 20;
+    border-top: 1px solid #ddd;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.enlaceRRSS_D{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 10px;
+    width: 500px;
+    height: 300px;
+    position:inherit;  
+}
+
+.enlaceRRSS_D1{
+    margin-top: 20px;
+    margin-left: 110px;
+    margin-right: 10px;
+    width: 500px;
+    height: 350px;
+    position:inherit;
+}
+
+.LETTER{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #111947;
+    margin-top: 40px;
+    margin-left:110px;
+
+}
+
+.LETTER1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #111947;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-weight: bold;
+
+}
+
+.LETTER2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 20px;
+    color: #111947;
+    margin-top: 4px; 
+    margin-right: 110px;
+    margin-left:110px;
+   text-align:justify;
+}
+
+.LETTER4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #771c32;
+    margin-top: 30px;
+    margin-left:110px;
+   margin-bottom: 25px;
+}
+
+  li a{
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 100%;
+        padding-top: 10px;    /* Fijo el padding a 10 píxeles*/
+        padding-bottom: 10px;
+        height: auto;   /* Fijo la altura en auto */
+        width: 150px;   /* Fijo el ancho a 150 pixeles*/
+         
+        margin: auto;
+        text-decoration: none;
+        -webkit-border-radius: 28px;
+        -moz-border-radius: 28px;
+        border-radius: 28px;
+        
+        box-shadow: 5px 4px 8px #bb5a00dc;
+        text-shadow: 1px 1px 3px #3a35bf;
+        background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffa666), to(#c46f00));
+        background: -moz-linear-gradient(top, #ffa666, #c46f00);
+        -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5567db, endColorStr=#0d05fa);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=#5567db, endColorStr=#0d05fa);
+        display:inline-block; 
+        text-align:center;
+        cursor:pointer;
+        
+
+      }
+      li a:hover{
+
+            background: #ffd298;
+            
+          }
+       .especificas{
+
+        position:absolute;
+        z-index: 10;
+        width: 25%;  
+        display:none;
+        list-style: none;
+        }
+        li:hover> ul{
+
+            display:block;
+            
+              }
+       
+
+        .listaMenu{
+            list-style: none;
+        }
+
+        .imagenMaps{
+
+            width: 20%;
+            margin-left:20%;
+            
+        }
+
+        
+
+/*  MEDIA-QUERIES. REQUERIMIENTO 3 */
+
+/* 1- Adaptación para ancho variable de monitores de más de 1300px de ancho. */
+
+@media screen and (min-width: 1300px){
+
+    /*No quiero que existan margenes ni padding, para aprovechar al máximo el espacio*/
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor {
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .tituloCabecera{
+        margin: auto;
+        top: 20%;
+        font-size: 300%;
+        
+    }
+
+    .button {
+        font-size: 120%;
+    }
+
+    main{
+        width:100%;
+    }
+
+    .contenidoPrincipal{
+        width: 75%;
+        margin: auto;
+        font-size: 150%;
+    }
+
+    .asideLateral{
+        width: 20%;
+        margin: auto;
+        font-size: 150%;
+    }
+
+    footer{
+        
+        font-size: 120%;
+    }
+
+}
+
+/* 2- Adaptación de ancho fijo de resoluciones de 900px a 1300px de ancho.  */
+
+@media screen and (min-width : 900px) and (max-width : 1299px) {
+
+    /*No quiero que existan margenes ni padding, para aprovechar al máximo el espacio*/
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor{
+        width:100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .tituloCabecera{
+        margin: auto;
+        top: 25%;
+        font-size: 200%;
+        
+    }
+
+    .button {
+        font-size: 90%;
+        width: 90%;
+
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .contenidoPrincipal{
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .asideLateral{
+        width: 25%;
+        margin: auto;
+    }
+
+   
+
+}
+
+/* 3- Adaptación optimizada para verse en un iPad en posición vertical.  */
+
+/*Un iPad en vertical tiene unas dimensiones de 768 x 1024 (ancho x alto), 
+por lo que las medidas en las que nos basamos para hacer el ajuste, son las mencionadas anteriormente*/
+
+@media screen and (min-width: 768px) and (orientation: portrait) {
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+
+        width: 100%;
+        height: 150px;
+    }
+
+    .tituloCabecera{
+        
+        margin-top: 60px;
+        margin-right: 20px;
+        margin-left: 65px;
+        font-size: 25px;
+    }
+
+    .enlaceRRSS{
+
+        
+        width: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .imagenHeader{
+
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+
+    }
+
+    .nav{
+
+        background-color: #f9fac1;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+
+    }
+
+    .button{
+        font-size: 90%;
+        width: 120px;
+        margin-left: 20px;
+
+    }
+
+    .tablaCentrada{
+    width: 80%;
+    }
+
+    main{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contenidoPrincipal{
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .asideLateral{
+        width: 22%;
+        margin: auto;
+    }
+
+    .textoQS{
+        font-size: 20px;
+
+}
+
+/* 4- Adaptación optimizada para verse en un iPad en posición horizontal.*/
+
+/*Un iPad en horizontal tiene unas dimensiones de 1024 x 768 (ancho x alto), 
+por lo que las medidas en las que nos basamos para hacer el ajuste, son las mencionadas anteriormente*/
+
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+
+        width: 100%;
+        height: 150px;
+    }
+
+    .tituloCabecera{
+    
+        margin-right: 20px;
+        font-size: 200%;
+    }
+
+    .enlaceRRSS{
+
+        width: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .imagenHeader{
+
+        width: 140px;
+        height: 140px;
+        border-radius: 70px;
+
+    }
+
+    .button{
+        font-size: 90%;
+        width: 90%;
+
+    }
+
+    .tablaCentrada{
+        width: 80%;
+    }
+
+    main{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contenidoPrincipal{
+        width: 70%;
+        margin: auto;
+
+    }
+
+    .asideLateral{
+        width: 25%;
+        margin: auto;
+    }
+
+    
+
+}
+
+/* 5- Adaptación optimizada para verse en un iPhone posición vertical.*/
+
+/* Para esta adptación elegimos el Iphone 12 Pro que tiene unas dimensiones de 390px x 844px (ancho x largo) */
+
+@media screen and (max-width: 390px) and (orientation: portrait) {
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+
+        width: 100%;
+        background-color: #f9fac1;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+    }
+
+    .imagenHeader{
+        margin-top: 2px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 80px;
+
+    }
+
+    .enlaceRRSS{
+
+        width: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .tituloCabecera{
+        margin-top: 0px;
+        font-size: 0%;
+        border-radius: 0px;
+    }
+
+    nav{
+        width: 100%;
+        margin-left: 1px;
+        margin-top: 210px;
+        background-color: #f9fac1;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+    }
+
+    .button{
+        font-size: 70%;
+        margin-left: 5px;
+        width: 90px;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+
+    }
+
+    .tablaCentrada{
+        width: 80%;
+    }
+
+    main{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contenidoPrincipal{
+        width: 50%;
+        font-size: 100%;
+        margin: auto;
+
+    }
+
+    .asideLateral{
+        width: 35%;
+        margin: auto;
+    }
+
+    .enlaceRRSS_D{
+        width: 100%;
+        margin-left:0.5%;
+    }
+
+    .enlaceRRSS_D1{
+        width: 100%;
+        margin-left: 0.5px;
+        
+    }
+    
+    .LETTER1{
+        margin: auto;
+         text-align: center;
+    }
+
+    .LETTER4{
+        margin:auto;
+        margin-left: 15%;
+        font-size: 30px;
+    }
+
+    .contenidoPrincipalA{
+        height: auto;
+        max-height: 100%;
+    }
+
+    .imagFormon{
+        margin: auto;
+        margin-right: 10px;
+    }
+
+    .textoQS{
+        font-size: 14px;
+    }
+}
+
+/* 5- Adaptación optimizada para verse en un iPhone posición horizontal.*/
+
+/* Para esta adptación elegimos el Iphone 12 Pro que tiene unas dimensiones de 844px x 390px (ancho x largo) */
+
+@media screen and (max-width: 844px) and (orientation: landscape) {
+
+    *{
+        margin:0;
+        padding:0;
+    }
+
+    .contenedor {
+
+        width: 100%;
+        height: 100%;
+    }
+
+    header{
+
+        width: 100%;
+        background-color: #f9fac1;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+    }
+
+    .imagenHeader{
+        margin-top: 10px;
+        width: 200px;
+        height: 200px;
+        border-radius: 100px;
+        margin-left: 320px;
+
+    }
+
+    .enlaceRRSS{
+
+        width: 30px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .tituloCabecera{
+        margin-top: 0px;
+        font-size: 0%;
+        border-radius: 0px;
+    }
+
+    nav{
+        margin:auto;
+        margin-left: 60px;
+        margin-top: 210px;
+        background-color: #f9fac1;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+    }
+
+    .button{
+        font-size: 80%;
+        margin:auto;
+        margin-left: 40px;
+        width: 120px;
+        border: 0px;
+        box-shadow: 0px 0px 0px #f9fac1;
+
+    }
+
+    .tablaCentrada{
+        width: 80%;
+    }
+
+    main{
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .contenidoPrincipal{
+        width: 60%;
+        font-size: 100%;
+        margin: auto;
+
+    }
+
+    .asideLateral{
+        width: 25%;
+        margin: auto;
+    }
+}
+
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel = "stylesheet" href = "estilo1.css">
+</head>
+
+<body>
+
+
+    <div class="contenedor">
+
+        <header>
+            <!--Aquí va la parte de la cabecera-->
+
+            
+    
+            <a href="index1.html"><img src="img\LogoEmpresa.png" class="imagenHeader" title="Ir a inicio"></a>
+            <section class="tituloCabecera"><p>CARPINTERIA PIRINEOS</p></section>
+            <a href="https://www.instagram.com/" target="_blank"><img src="img\3225191_app_instagram_logo_media_popular_icon.png" class="enlaceRRSS" title="Ir a Instagram"></a>
+            <a href="https://es-es.facebook.com/" target="_blank"><img src="img\3225194_app_facebook_logo_media_popular_icon.png"  class="enlaceRRSS" title="Ir a Facebook"></a>
+        </header>
+
+        
+        <!-- Aquí va la parte del menú. Lo he puesto como una tabla por manejarlo mejor. -->
+        <nav>          
+            <table class="tablaCentrada">
+                <tr>
+
+                    <td><a class="button" href="./index1.html">Home</a></td>
+                
+                    <td>  <a class="button" href="./quienesSomos.html">Quiénes somos</a></td>
+                
+                    <td><li class="listaMenu"><a class="button">Áreas de actuación</a>
+                        <ul class="especificas">
+                        <li class="listaMenu"><a href="./areas_de_actuacion/ventanas.html">Ventanas</a></li>
+                        <li class="listaMenu"><a href="./areas_de_actuacion/suelos.html">Suelos</a></li>
+                        <li class="listaMenu"><a href="./areas_de_actuacion/pasamanos.html">Pasamanos</a></li>
+                        </ul class="listaMenu">
+                        </li>
+                    </td>
+                
+                    <td><a class="button" href="./contacto.html">Contacto</a></td>
+
+                </tr>
+            </table>
+        </nav>
+
+            <!-- Aquí va el contenido principal-->
+        <div class="contenedorCQS">
+            <div class="datosCliente ">
+                    <form>
+                       
+                        <h3>Datos del cliente</h3>
+                        <br/>
+                        <label for="name">Nombre</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="name"> 
+                        <br/>
+                        <br/>
+                        <label for="lastName">Apellido</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="lastName">
+                        <br/>
+                        <br/>
+                        <label for="tel">Teléfono</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="tel",type="tel">
+                        <br/> 
+                        <br/>
+                        <label for="email">Email</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="email",type="email">
+                        <br/> 
+                        <br/>
+                        <label for="mensaje">Escriba un mensaje</label>
+                        <br/>
+                        <textarea style="max-width : 100%;" rows="10" cols="58" id="mensaje"></textarea>
+                        <br/>
+                        <br/>
+                    
+                    
+                        <h3>Presupuesto</h3>
+                        <br/>
+                        <label for="construcción">Tipo de construcción </label>
+                        <br/>
+                        <select style="max-width : 100%;height:35px",id="construcción">
+                            <option value="ventana">Ventana</option>
+                            <option value="puerta">Puerta</option>
+                            <option value="escalera">Escalera</option>
+                            <option value="cocina">Cocina</option>
+                            <option value="casa_Jardin">Casa de Jardín</option>
+                            <option value="tejado">Tejados y cobertizos</option>
+                            <option value="muebles">Muebles a medida</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        <label for="madera">Tipo de madera</label>
+                        <br/> 
+                        <select style="max-width : 100%;height:35px",name="madera">
+                            <option value="pino">Pino </option>
+                            <option value="haya">Haya</option>
+                            <option value="nogal">Nogal</option>
+                            <option value="abeto">Abeto</option>
+                            <option value="roble">Roble</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        <label  for="cantidad">Cantidad</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="cantidad",type="number">
+                        <br/>
+                        <br/>
+                        <label for="dimenciones">Dimensiones en cm:</label>
+                        <br/>
+                        <h>-Alto</h>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="dimenciones">
+                        <br/>
+                        <br/>
+                        <h>-Ancho</h>
+                        <br/>
+                        <input style="max-width : 100%;height:35px", id="dimenciones">
+                        <br/>
+                        <br/>
+                        <label for="localidad">Localidad de la obra</label>
+                        <br/>
+                        <input style="max-width : 100%;height:35px",id="localidad">
+                        <br/>
+                        <br/>
+                    
+                         <br/>
+                    
+                    <button style="width : 200px"><h3>Enviar Datos</h3></button>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    </form>
+            </div>
+            <div class="contactoEmpresa">
+            <h2><pre>
+    Dirección: Calle Ordesa, 4, 
+    Sabiñánigo, Huesca, España.
+
+    tel: 876969584
+
+    Email: pirineos@gmail.com
+           </pre></h2>
+           <a target="_blank" href="https://www.google.pt/maps/place/22600+Sabi%C3%B1%C3%A1nigo,
+           +Huesca,+Espa%C3%B1a/@42.5196099,-0.3766974,15z/data=!3m1!4b1!4m5!3m4!
+           1s0xd5820d1b5a9d7d3:0xf32916176c806fea!8m2!3d42.5193078!4d-0.3637505?hl=es"><img src="img\2993681_brand_brands_google_logo_logos_icon.png" class="imagenMaps" title="Ir a Maps"></a>
+           
+           
+           
+          </div>
+        </div> 
+
+        <footer>
+            <!-- Aquí va la parte del pie de página -->
+            <p>Copyright © 2022 - Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+</body>
+</html>
